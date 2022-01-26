@@ -4,7 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 !**/log/
-!twitter-to-kafka-service/src/main/resources/twitter4j.properties
+!twitter-to-kafka-service/src/main/resources/
 
 ### STS ###
 .apt_generated
