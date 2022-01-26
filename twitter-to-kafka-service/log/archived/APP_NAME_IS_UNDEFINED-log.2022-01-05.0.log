@@ -1,0 +1,22 @@
+2022-01-05 20:06:49 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.5 on PVYASPF1K77KX with PID 82444 (C:\java_projects\vyas-microservices\twitter-to-kafka-service\target\classes started by pvyas in C:\java_projects\vyas-microservices)
+2022-01-05 20:06:49 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-05 20:06:50 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.336 seconds (JVM running for 1.97)
+2022-01-05 20:06:50 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts
+2022-01-05 20:06:50 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - [Revolut]
+2022-01-05 20:06:50 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - Spring Works!!
+2022-01-05 20:06:50 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-05 20:06:50 [main] INFO  c.v.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering stream for keywords [Revolut]
+2022-01-05 20:07:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-05 20:07:04 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-05 20:07:04 [Twitter4J Async Dispatcher[0]] INFO  c.v.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @burntheloop Simple mistake and amazon are just dicks haha. Most awkward company I’ve ever interacted with including Revolut and PayPal.
+2022-01-05 20:08:16 [Twitter4J Async Dispatcher[0]] INFO  c.v.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Werby64 @nathann_robin @TMuland @z_z_7_q @Raska_yt @Kulturlesite_ Moi j’ai un compte depuis la sortie de N26 et là depuis ces nouvelle datant de quelque mois j’utilise plus n26, dirige toi vers nickel, revolut en attendant que ça se stabilise à nouveau
+2022-01-05 20:09:38 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.5 on PVYASPF1K77KX with PID 91060 (C:\java_projects\vyas-microservices\twitter-to-kafka-service\target\classes started by pvyas in C:\java_projects\vyas-microservices)
+2022-01-05 20:09:38 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-05 20:09:39 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.766 seconds (JVM running for 2.304)
+2022-01-05 20:09:39 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts
+2022-01-05 20:09:39 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - [Khorus]
+2022-01-05 20:09:39 [main] INFO  c.v.m.t.t.k.s.TwitterToKafkaServiceApplication - Spring Works!!
+2022-01-05 20:09:39 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-05 20:09:39 [main] INFO  c.v.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering stream for keywords [Khorus]
+2022-01-05 20:10:05 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-05 20:10:05 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.

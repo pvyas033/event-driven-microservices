@@ -1,0 +1,2 @@
+2022-01-24 12:00:49 [main] INFO  c.v.m.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topc], attempt 0
+2022-01-24 16:33:53 [main] INFO  c.v.m.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topc], attempt 0

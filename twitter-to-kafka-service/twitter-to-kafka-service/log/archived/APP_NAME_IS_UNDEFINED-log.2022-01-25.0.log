@@ -1,0 +1,1 @@
+2022-01-25 16:35:05 [main] INFO  c.v.m.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topc], attempt 0
