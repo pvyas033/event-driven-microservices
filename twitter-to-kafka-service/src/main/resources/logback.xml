@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true">
-    <property name="DEV_HOME" value="./twitter-to-kafka-service/log"/>
-    <property name="APP_HOME" value="twitter-to-kafka-service"/>
+    <property name="DEV_HOME" value="./twitter-to-kafka-service/logs"/>
+    <property name="APP_NAME" value="twitter-to-kafka-service"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
@@ -21,7 +21,7 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover. Make sure the path matches the one in the file element or else
              the rollover logs are placed in the working directory. -->
-            <fileNamePattern>${DEV_HOME}/archived/${APP_NAME}-log.%d{yyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>${DEV_HOME}/archived/${APP_NAME}-log.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10MB</maxFileSize>
