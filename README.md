@@ -44,7 +44,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -74,7 +73,7 @@ Event-Driven Microservices Architecture with patterns using Spring boot, Spring 
 - Please enter the correct credentials in twitter4j.properties file.
 - Then run 
   ```sh
-  mvn install -DskipTests 
+  mvn install -DskipTests
   ```
 - Then go to \docker-compose folder and run below command to run kafka cluster and twitter-to-kafka-service together 
   ```sh
