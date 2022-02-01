@@ -76,7 +76,10 @@ Event-Driven Microservices Architecture with patterns using Spring boot, Spring 
   ```sh
   docker-compose up 
   ```
-
+- If you want to stream actual tweets from twitter then please update TWITTER-TO-KAFKA-SERVICE_ENABLE-MOCK-TWEETS as true in services.yml under environment
+  ```sh
+  TWITTER-TO-KAFKA-SERVICE_ENABLE-MOCK-TWEETS=true 
+  ```
 
 ### Installation
 
